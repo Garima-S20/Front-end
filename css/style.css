@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|Oswald|Roboto");
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v41/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2"); }
+		
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'liga'; }
+
+body, h1, h2, h3, h4, header nav ul, #mylists-add-new-list {
+  margin: 0;
+  padding: 0; }
+  
+header * {
+font-family: "Oswald", sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #484539; }
+
+header #topbar #ref-link {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #8c8c8c; }
+  
+  i {
+  padding: 12px; }
+  
+  
+  /* Header */
+  header * {
+    background-color: #f9f9f9; }
+  
+   header #topbar {
+    padding: 0 5%;
+    box-sizing: border-box; }
+   
+   header #topbar * {
+      display: inline-block; }
+   
+   header #topbar #logo:hover {
+      -webkit-transform: translateX(2px);
+              transform: translateX(2px); }
+   
+   header #topbar #movie-icon {
+      padding-left: 1; }
+  
+   header #topbar h1 {
+      position: relative;
+      top: -4px;
+      left: auto; }
+    
+   header #topbar #ref-link {
+      position: relative;
+      top: 17px;
+      left: auto;
+      display: none;
+      float: right; }
+      @media (min-width: 800px) {
+        
+   header #topbar #ref-link {
+          display: inline-block; } }
+   
+   header #topbar #ref-link a:hover {
+        color: #8c8c8c; }
+  
+  
